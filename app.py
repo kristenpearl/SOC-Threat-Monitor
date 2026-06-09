@@ -1,17 +1,15 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(name)
 
 @app.route("/")
+
 def dashboard():
 
-    return """
-    <h1>SOC Threat Monitor</h1>
-
-    <h3>Security Operations Center</h3>
-
-    <p>Status: Monitoring Active</p>
-    """
+    return render_template(
+        "dashboard.html"
+    )
 
 if name == "main":
+
     app.run(debug=True)
