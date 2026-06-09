@@ -1,17 +1,17 @@
-from flask import Flask
+def get_alerts():
 
-app = Flask(name)
+    return [
 
-@app.route("/")
-def dashboard():
+        {
+            "id":"ALERT-001",
+            "severity":"Critical",
+            "event":"Multiple Failed Logins"
+        },
 
-    return """
-    <h1>SOC Threat Monitor</h1>
+        {
+            "id":"ALERT-002",
+            "severity":"High",
+            "event":"Suspicious IP Activity"
+        }
 
-    <h3>Security Operations Center</h3>
-
-    <p>Status: Monitoring Active</p>
-    """
-
-if name == "main":
-    app.run(debug=True)
+    ]
