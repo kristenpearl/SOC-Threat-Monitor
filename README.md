@@ -30,12 +30,37 @@ The platform provides visibility into security events, alerts, and incident work
 - Security Monitoring
 - Risk Management
 
-## Example Alerts
+## Security Operations Features
 
-ALERT-001 | Critical | Multiple Failed Logins
+- Security Event Monitoring
+- Alert Management
+- Incident Tracking
+- Risk Classification
+- Security Reporting
+- Analyst Dashboard
 
-ALERT-002 | High | Suspicious IP Activity
+## Example Incidents
 
+| Incident ID | Severity | Status |
+|-------------|-----------|---------|
+| INC-001 | Critical | Open |
+| INC-002 | High | Investigating |
+
+## Example Use Cases
+
+- SOC Analyst Training
+- Security Operations Demonstration
+- Incident Management Workflow
+- Threat Monitoring Exercises
+
+## Future Enhancements
+
+- Threat Intelligence Feeds
+- MITRE ATT&CK Mapping
+- User Authentication
+- Dashboard Analytics
+- Incident Database
+- PDF Reporting
 ## Roadmap
 
 - [ ] Incident Database
