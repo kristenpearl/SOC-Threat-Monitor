@@ -1,1 +1,43 @@
+SOC INCIDENT REPORT
 
+Incident ID: INC-001
+
+Title: Brute Force Login Attempt
+
+Date: 2026-06-09
+
+Severity: Critical
+
+Status: Open
+
+Description:
+
+Multiple failed authentication attempts were detected against a privileged account.
+
+Threat Intelligence:
+
+Source IP: 45.83.91.12
+
+Threat Feed Status: Known Malicious
+
+MITRE ATT&CK Mapping:
+
+Technique ID: T1110
+
+Technique Name: Brute Force
+
+Risk Assessment:
+
+Critical
+
+Recommendations:
+
+1. Lock affected account
+2. Enable MFA
+3. Investigate source IP
+4. Review authentication logs
+5. Monitor for additional activity
+
+Analyst Notes:
+
+Incident remains under investigation.
